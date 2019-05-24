@@ -13,7 +13,7 @@ import { testFunction } from '../src/extension';
 // import * as myExtension from '../extension';
 
 // Defines a Mocha test suite to group tests of similar kind together
-suite("Extension Tests", function () {
+describe("Extension Tests", function () {
 
     // Defines a Mocha unit test
     test("Something 1", function() {
